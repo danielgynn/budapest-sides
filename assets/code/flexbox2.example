@@ -1,0 +1,10 @@
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+
+  li {
+    flex: 1 1 200px; // flex-grow flex-shrink flex-basis
+    margin: 10px;
+  }
+}

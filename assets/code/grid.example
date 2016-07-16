@@ -1,0 +1,12 @@
+wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+
+  .sidenav {
+    grid-column: 1;
+  }
+
+  content {
+    grid-column: 2;
+  }
+}
